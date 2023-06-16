@@ -20,7 +20,10 @@ body {
   font-weight: normal;
 }
 
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
+.navbar .navbar-nav .nav-item a {
+  padding: 10px 40px;
+}
+
+.header-img img {
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
