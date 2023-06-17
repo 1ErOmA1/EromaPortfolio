@@ -49,6 +49,10 @@ body{
     font-size: 16px;
 }
 
+.col1-wrapper{
+    padding-left: 100px;
+}
+
 .col-dot {
     list-style-type: square;
 }
@@ -57,32 +61,19 @@ body{
     text-align: center;
 }
 
-.col-container{
-    position: relative;
-}
-
-.title-container {
-    
-}
-
-.col2-title {
+.col-container {
     text-align: center;
-}
-
-.btn-wrapper {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .btn{
     background-color: $purple-color;
     color: $white-color;
-    width: 90%;
+    width: 100%;
     padding: 12px;
     font-size: 20px;
-}
-
-.col1-wrapper{
-    padding-left: 100px;
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
@@ -98,10 +89,14 @@ body{
 }
 
 @media (max-width: 767px) {
-    .col{
-        width: 100%;
-      }
     .col1-wrapper{
         padding-left: 0px;
     }  
   }
+
+
+@media (max-width: 638px) {
+    .col-text-position {
+        margin: auto;
+    }
+}
