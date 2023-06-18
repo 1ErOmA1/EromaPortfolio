@@ -22,12 +22,15 @@ body {
 }
 
 .navbar .navbar-nav .nav-item a {
-  padding: 10px 20px;
-  margin-left: 40px;
+  padding: 10px 35px;
 }
 
 .header-img img {
   max-width: 100%;
+}
+
+.navbar-brand {
+  visibility: hidden;
 }
 
 .container {
@@ -78,6 +81,9 @@ body {
   .col1-wrapper {
     padding-left: 0px;
   }
+  .navbar-brand img {
+    margin-left: 30px;
+  }
 }
 @media (max-width: 767px) {
   .col1-wrapper {
@@ -87,5 +93,12 @@ body {
 @media (max-width: 638px) {
   .col-text-position {
     margin: auto;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-brand img {
+    visibility: visible;
+    width: 60px;
+    height: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
