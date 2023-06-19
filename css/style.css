@@ -64,7 +64,7 @@ body {
   align-items: center;
 }
 
-.btn {
+.btn-header {
   background-color: #B572B7;
   color: #ffffff;
   width: 100%;
@@ -89,10 +89,30 @@ body {
   .col1-wrapper {
     padding-left: 0px;
   }
+  .center-cropped {
+    display: none;
+  }
+  .header-img {
+    max-width: 1000px;
+    height: 250px;
+    background-image: url("../img/Photo_for_portfolio_main4.jpg");
+    background-size: cover;
+    background-position: center;
+  }
 }
 @media (max-width: 638px) {
   .col-text-position {
     margin: auto;
+  }
+  .center-cropped {
+    display: none;
+  }
+  .header-img {
+    max-width: 800px;
+    height: 200px;
+    background-image: url("../img/Photo_for_portfolio_main4.jpg");
+    background-size: cover;
+    background-position: center;
   }
 }
 @media (max-width: 991px) {
@@ -108,7 +128,7 @@ body {
 }
 
 .slider__title {
-  padding: 120px 0px 10px 0px;
+  padding: 150px 0px 10px 0px;
   text-align: center;
   color: #ffffff;
 }
@@ -146,11 +166,11 @@ body {
 }
 .slider .slick-arrow.slick-prev {
   left: 15px;
-  background: url("/dist/img/arrow-right.svg") 0 0/100% no-repeat;
+  background: url("../img/svg/arrow-l.svg") 0 0/100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
   right: 15px;
-  background: url("/dist/img/arrow-left.svg") 0 0/100% no-repeat;
+  background: url("../img/svg/arrow-r.svg") 0 0/100% no-repeat;
 }
 .slider .slider__item {
   transition: all 0.3s ease 0s;
@@ -187,13 +207,24 @@ body {
 }
 .slider-third .slick-arrow.slick-prev {
   left: 15px;
-  background: url("/dist/img/arrow-right.svg") 0 0/100% no-repeat;
+  background: url("../img/svg/arrow-l.svg") 0 0/100% no-repeat;
 }
 .slider-third .slick-arrow.slick-next {
   right: 15px;
-  background: url("/dist/img/arrow-left.svg") 0 0/100% no-repeat;
+  background: url("../img/svg/arrow-r.svg") 0 0/100% no-repeat;
 }
 .slider-third .slider__item {
   transition: all 0.3s ease 0s;
   margin: 0 auto;
+}
+
+footer {
+  padding: 60px 0;
+}
+footer .btn {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+footer .btn:hover {
+  background-color: #B572B7;
 }/*# sourceMappingURL=style.css.map */

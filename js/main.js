@@ -4,7 +4,7 @@ $(document).ready(function(){
         slidesToShow:3,
         speed:700,
         initialSlide:1,
-        // waitForAnimate:false,
+        //waitForAnimate:false,
         centerMode:true,
         centerPadding: '0px',
         responsive:[
@@ -29,19 +29,5 @@ $(document).ready(function(){
         adaptiveHeight:true,
         speed:800,
         initialSlide:1,
-        responsive:[
-            {
-                breakpoint:768,
-                settings:{
-                    slidesToShow:1
-                }
-            },
-            {
-                breakpoint:480,
-                settings:{
-                    slidesToShow:1
-                }
-            }
-        ]
     });
 });
