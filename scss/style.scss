@@ -109,7 +109,7 @@ body{
     
     .header-img{
         max-width: 1000px;
-        height: 250px;
+        height: 230px;
         background-image: url('../img/Photo_for_portfolio_main4.jpg');
         background-size: cover;
         background-position: center;
@@ -127,7 +127,22 @@ body{
     
     .header-img{
         max-width: 800px;
-        height: 200px;
+        height: 170px;
+        background-image: url('../img/Photo_for_portfolio_main4.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .center-cropped {
+        display: none;
+      }
+    
+    .header-img{
+        max-width: 800px;
+        height: 150px;
         background-image: url('../img/Photo_for_portfolio_main4.jpg');
         background-size: cover;
         background-position: center;
@@ -248,8 +263,9 @@ body{
 footer{
     padding: 60px 0;
     .btn{
-        margin-left: 30px;
-        margin-top: 30px;
+        margin: 10px 30px;
+        // margin-left: 30px;
+        // margin-top: 30px;
         &:hover{
             background-color: #B572B7;
         }
