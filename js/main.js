@@ -31,3 +31,13 @@ $(document).ready(function(){
         initialSlide:1,
     });
 });
+
+// $(document).ready(function() {
+//     $('.nav-link').mouseenter(function() {
+//       var originalText = $(this).text();
+//       $(this).text('New Text'); /* Замените 'New Text' на желаемый текст для смены */
+//       $(this).mouseleave(function() {
+//         $(this).text(originalText);
+//       });
+//     });
+//   });
