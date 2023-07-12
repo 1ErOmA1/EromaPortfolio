@@ -29,15 +29,25 @@ $(document).ready(function(){
         adaptiveHeight:true,
         speed:800,
         initialSlide:1,
+        centerMode:true,
+        centerPadding: '0px',
     });
 });
 
-// $(document).ready(function() {
-//     $('.nav-link').mouseenter(function() {
-//       var originalText = $(this).text();
-//       $(this).text('New Text'); /* Замените 'New Text' на желаемый текст для смены */
-//       $(this).mouseleave(function() {
-//         $(this).text(originalText);
-//       });
-//     });
-//   });
+document.getElementById("contact-button").addEventListener("click", function() {
+    window.location.href = "mailto:Kirilleroma@gmail.com";
+});
+  
+
+function removeElement() {
+    var screenWidth = window.innerWidth;
+    
+    if (screenWidth < 435) {
+      var element = document.querySelector('#br-title');
+      element.parentNode.removeChild(element);
+      
+    }
+  }
+  window.addEventListener('load', removeElement);
+  window.addEventListener('resize', removeElement);
+  
