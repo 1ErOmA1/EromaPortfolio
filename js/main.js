@@ -51,3 +51,7 @@ function removeElement() {
   window.addEventListener('load', removeElement);
   window.addEventListener('resize', removeElement);
   
+
+  window.addEventListener('orientationchange', function() {
+    location.reload();
+  });
