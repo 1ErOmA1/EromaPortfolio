@@ -1,0 +1,77 @@
+//font start
+@font-face {
+    font-family: 'Furore'; 
+    font-style: normal;
+    font-weight: 400;
+    src: local('Furore Regular'), local('Furore-Regular'), 
+    url("../fonts/Furore.woff2") format("woff2"), 
+    url("../fonts/Furore.woff") format("woff"); 
+}
+//font end
+
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1180px;
+}
+
+.visually-hidden {
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.open{
+    display: flex !important;
+}
+
+.none{
+    display: none !important;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 998px) {
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: $extra_extra_large) {
+
+}
+
+@media screen and (max-width: $extra_large) {
+
+}
+
+@media screen and (max-width: $large) {
+
+}
+
+@media screen and (max-width: $medium) {
+ 
+}
+
+@media screen and (max-width: $small) {
+
+}

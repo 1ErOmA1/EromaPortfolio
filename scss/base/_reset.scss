@@ -1,0 +1,17 @@
+//basic settings start
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Furore';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: normal;
+    background-color: $black-color;
+}
+//basic settings end
